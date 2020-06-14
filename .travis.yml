@@ -14,8 +14,6 @@ after_success:
   - eval "$(ssh-agent -s)"
   - chmod 600 $TRAVIS_BUILD_DIR/deploy_key
   - ssh-add $TRAVIS_BUILD_DIR/deploy_key
-  - mkdir -p ~/.ssh
-  - echo -e "Host mywebsite.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 addons:
   ssh_known_hosts:

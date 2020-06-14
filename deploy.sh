@@ -1,1 +1,1 @@
-echo "qwewqrwqrwr" | ssh travis@$SERVER_1 "cat >> project_file.txt"
+echo "qwewqrwqrwr1" | ssh travis@$SERVER_1 "cat >> project_file.txt"
