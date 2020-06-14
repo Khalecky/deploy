@@ -18,4 +18,4 @@ after_success:
   - echo -e "Host mywebsite.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 addons:
-  ssh_known_hosts: $SERVER_1
+  ssh_known_hosts: 78.24.217.4
