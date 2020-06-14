@@ -1,0 +1,6 @@
+language: php
+script:
+  - echo "MY TEST"
+deploy:
+  on:
+    branch: master
