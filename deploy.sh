@@ -1,0 +1,1 @@
+echo "qwewqrwqrwr" > deployed_file.txt
