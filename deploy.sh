@@ -1,1 +1,1 @@
-echo "qwewqrwqrwr" > deployed_file.txt
+echo "qwewqrwqrwr" | ssh travis@$SERVER_1 "cat >> project_file.txt"
