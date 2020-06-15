@@ -3,7 +3,7 @@ script:
 - echo "MY TEST"
 deploy:
   provider: script
-  script: bash deploy.sh $SERVER1
+  script: bash deploy.sh
   on:
     branch: master
 before_install:
