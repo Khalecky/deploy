@@ -1,3 +1,3 @@
-SSH_ADDR=$1;
-scp deploy.sh deploy/config.conf $SSH_ADDR:~/
+SSH_ADDR=travis@$SERVER1;
+scp -r deploy $SSH_ADDR:~/
 ssh $SSH_ADDR "sh deploy/customize_config.sh $SERVER1"
